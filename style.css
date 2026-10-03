@@ -1,0 +1,90 @@
+.caixa {
+    background-color: rgb(255, 166, 0);
+    width: 500px;
+    height: 700px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    
+    position: relative;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+}
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: absolute;
+    top: 90px;
+    
+   
+}
+.apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 300px;
+}
+
+.apps img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.apps .instagram {
+    width: 75px;
+    height: 75px;
+}
+.perfil {
+    width: 190px;
+    height: 190px;
+    background-color: black;
+    position: absolute;
+    top: 70px;
+    border-radius: 20%;
+}
+.titulo {
+    position: absolute;
+    align-items: center;
+    top: 250px;
+    
+}
+.texto {
+    position: absolute;
+    align-items: justify;
+    top: 400px;
+    width: 400px;
+}
+.frase {
+    position: absolute;
+    align-items: justify;
+    top: 650px;
+    width: 400px;
+}
+.linguagens {
+    position: absolute;
+    align-items: center;
+    top: 470px;
+}
+.fotol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 550px;
+}
+.fotol img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
